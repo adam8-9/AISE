@@ -1,0 +1,93 @@
+h1 {
+  text-align: center;
+  margin-top: 5vh;
+}
+
+.image-generator-container {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.image-generator-container .image-prompt {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.image-generator-container .image-prompt figure {
+  margin-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: clamp(250px, 100%, 444px);
+}
+.image-generator-container .image-prompt figure input {
+  width: 200px;
+  align-self: flex-start;
+  margin-bottom: 20px;
+}
+.image-generator-container .image-prompt figure img {
+  margin: 3vh 0 0 0;
+  width: clamp(250px, 100%, 444px);
+}
+.image-generator-container .image-output {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.image-generator-container .image-output figure {
+  width: clamp(250px, 100%, 444px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.image-generator-container .image-output figure img {
+  margin: 2vh 0 0 0;
+  width: clamp(250px, 90%, 444px);
+}
+.image-generator-container .image-output figure .image-output-btns {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 3vh;
+}
+.image-generator-container .image-output figure .image-output-btns button {
+  text-align: center;
+  text-decoration: none;
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  height: 4vh;
+  width: 100px;
+  border: solid black 2px;
+  border-radius: 50px;
+  font: inherit;
+  cursor: pointer;
+}
+
+@media (max-width: 1100px) {
+  .image-generator-container {
+    height: auto;
+    flex-direction: column;
+  }
+  .image-generator-container section {
+    margin-bottom: 20px;
+  }
+  .image-generator-container .image-prompt {
+    width: auto;
+  }
+  .image-generator-container .image-prompt figure input {
+    align-self: center;
+  }
+  .image-generator-container .image-prompt figure img {
+    width: clamp(250px, 90%, 444px);
+  }
+}/*# sourceMappingURL=image-generator.css.map */

@@ -1,0 +1,61 @@
+.gallery-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 5vh 0 5vh 0;
+}
+
+h1 {
+  margin: 5vh 0 5vh 0;
+  text-align: center;
+}
+
+.phones-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+
+.phones-grid * {
+  margin: 0 0 10px 0;
+}
+
+.phones-grid figure {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 0 10px 0;
+  border: 1px solid transparent;
+}
+
+.phones-grid figure:hover {
+  border: 1px solid black;
+}
+
+.phones-grid figure img {
+  width: 20vh;
+  height: 20vh;
+}
+
+.phones-grid figure p {
+  padding: 0 10px 0 10px;
+  text-align: center;
+}
+
+@media (max-width: 800px) {
+  .phones-grid {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
+}
+@media (max-width: 540px) {
+  .phones-grid {
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+  }
+}/*# sourceMappingURL=gallery.css.map */

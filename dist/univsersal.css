@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Prosto One", sans-serif;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid black;
+  font-weight: 100;
+  position: relative;
+}
+
+.menu {
+  width: 100%;
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  position: relative;
+}
+
+.text-links-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.device-dropdown {
+  list-style: none;
+  position: absolute;
+  display: none;
+  background-color: white;
+}
+.device-dropdown li {
+  border: solid black 1px;
+  padding: 0.5vw;
+}
+
+.device-link:hover .device-dropdown {
+  display: block;
+  z-index: 101;
+}
+
+.menu li a {
+  position: relative;
+}
+
+.menu li a::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color: rgb(0, 0, 0);
+}
+
+.menu li a:hover:after {
+  width: 100%;
+}
+
+.open-menu,
+.close-menu {
+  position: absolute;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  display: none;
+}
+
+.open-menu {
+  top: 50%;
+  right: 20px;
+  transform: translateY(50%);
+}
+
+.close-menu {
+  top: 20px;
+  right: 20px;
+}
+
+.nav-icon-links {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+}
+
+.account-img,
+.basket-img {
+  width: 40px;
+  margin: 0 10px 0 10px;
+}
+
+#check {
+  display: none;
+}
+
+@media (max-width: 850px) {
+  .menu {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    width: 80%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: -100%;
+    z-index: 100;
+    background-color: rgb(254, 250, 250);
+    transition: all 0.2s ease-in-out;
+    padding-left: 10px;
+  }
+  .text-links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .nav-icon-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .menu .nav-link {
+    margin-top: 40px;
+  }
+  .menu .icon-link {
+    margin-top: 10px;
+  }
+  .device-dropdown {
+    position: relative;
+  }
+  .nav-icon-links {
+    margin-top: 10px;
+  }
+  .account-img,
+  .basket-img {
+    width: 40px;
+    margin: 0;
+  }
+  .open-menu,
+  .close-menu {
+    display: block;
+  }
+  #check:checked ~ .menu {
+    right: 0;
+  }
+}
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 2px solid black;
+  margin-top: 30px;
+}
+
+.footer-text-links {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.footer-text-links li {
+  padding: 1.5vw;
+}
+
+.footer-icon-links {
+  width: 20%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+.footer-icon-links .footer-icon {
+  height: 30px;
+  width: 30px;
+  filter: invert(1);
+  margin: 0 7px 0 7px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+footer {
+  background-color: black;
+}
+
+footer a {
+  color: aliceblue;
+}
+
+@media (max-width: 650px) {
+  footer {
+    height: 19vh;
+  }
+  .footer-icon-links {
+    flex-direction: column;
+  }
+  .footer-icon-links .footer-icon {
+    margin: 7px;
+  }
+}
+@media (max-width: 400px) {
+  footer {
+    height: 25vh;
+  }
+  .footer-icon-links {
+    flex-direction: column;
+  }
+  .footer-icon-links .footer-icon {
+    margin: 7px;
+  }
+}
+@media (max-width: 300px) {
+  footer {
+    height: 40vh;
+    flex-direction: column;
+  }
+  .footer-text-links {
+    justify-content: space-around;
+    margin-bottom: 5px;
+  }
+  .footer-icon-links {
+    flex-direction: row;
+  }
+  .footer-icon-links .footer-icon {
+    margin: 7px;
+  }
+}/*# sourceMappingURL=univsersal.css.map */

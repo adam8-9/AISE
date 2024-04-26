@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Prosto One", sans-serif;
+}
+
+.phone-grid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  border: 2px solid black;
+}
+
+.phone-grid div {
+  border: 1px solid black;
+}
+
+.header-iphone {
+  width: 100%;
+  background-size: contain;
+  height: 100%;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 3vh 0 0 0;
+}
+.main-header h1 {
+  text-align: center;
+}
+
+.main-header button {
+  margin-top: 1rem;
+  min-width: 150px;
+}
+
+.create-btn {
+  text-decoration: none;
+  background: black;
+  color: white;
+  height: 6vh;
+  width: 16vw;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+}
+.create-btn a {
+  color: aliceblue;
+}
+
+.create-btn:hover {
+  background: rgb(253, 253, 253);
+  color: rgb(0, 0, 0);
+  border: solid black 2px;
+}
+.create-btn:hover a {
+  color: black;
+}
+
+.product-categories {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.product-categories section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* border: 2px solid black; */
+  margin: 40px 40px 10px 40px;
+}
+.product-categories section .category-images {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 30px 0 30px 0;
+}
+.product-categories section .category-images figure img {
+  width: clamp(150px, 100%, 230px);
+}
+
+.product-categories h2 {
+  text-align: center;
+}
+
+.product-categories h3 {
+  margin-top: 20px;
+  height: 50px;
+  text-align: center;
+}
+
+.product-categories section a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 25%;
+  border-radius: 20px;
+  /* border: 2px solid black; */
+  /* margin: 30px 0 30px 0; */
+}
+
+.product-categories section figure {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 20px;
+  /* border: 2px solid black; */
+  /* margin: 30px 0 30px 0; */
+}
+
+.category-iphone {
+  border-radius: 20px;
+  border: solid 2px black;
+}
+
+.reviews {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.review-box {
+  margin-top: 5vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.review-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.review-text div {
+  height: 25vh;
+  width: 15vw;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 10px 0 10px;
+  padding: 5px;
+}
+.review-text div p {
+  text-align: center;
+  padding-top: 10px;
+}
+
+.review-btn {
+  border: none;
+  width: 10vw;
+  height: 10vh;
+  background-color: rgb(255, 255, 255);
+}
+.review-btn img {
+  background-size: cover;
+  max-width: 100%;
+  min-width: 30%;
+  height: 70%;
+}
+.review-btn .left-btn {
+  transform: scaleX(-1);
+}
+
+.review-btn:hover {
+  background: rgb(0, 0, 0);
+}
+.review-btn:hover img {
+  filter: invert(1);
+}
+.review-btn:hover a {
+  color: black;
+}
+
+.sale-banner {
+  margin-top: 5vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sale-banner-images {
+  margin-top: 5vh;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.sale-banner-images div {
+  width: 15vw;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 10px 0 10px;
+}
+
+.sale-iphone {
+  max-width: 100%;
+  background-size: cover;
+}
+
+@media (max-width: 1100px) {
+  .product-categories section .category-images {
+    flex-direction: column;
+  }
+  .review-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .review-text div {
+    padding-top: 5px;
+    width: clamp(160px, 100%, 200px);
+  }
+  .review-btn {
+    display: none;
+  }
+}/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../dist/univsersal.css" />
+    <link rel="stylesheet" href="../dist/login.css" />
+    <script src="../js/validate.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prosto+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Login</title>
+  </head>
+  <body>
+    <nav>
+      <a href="../index.html">
+        <img src="../images/icon.svg" height="120px" width="150px" alt="" />
+      </a>
+      <input type="checkbox" id="check" />
+      <ul class="menu">
+        <div class="text-links-container">
+          <li class="nav-link device-link">
+            <a href=""
+              >Devices
+              <ul class="device-dropdown">
+                <li><a href="../pages/android-cases.html">Android Cases</a></li>
+                <li><a href="../pages/iphone-cases.html">iPhone Cases</a></li>
+              </ul>
+            </a>
+          </li>
+          <li class="nav-link">
+            <a href="../pages/device-selection.html">Custom AI Cases</a>
+          </li>
+          <li class="nav-link">
+            <a href="../pages/all-cases.html">All Cases</a>
+          </li>
+          <li class="nav-link"><a href="../pages/gallery.html">Gallery</a></li>
+          <li class="nav-link"><a href="">Sale</a></li>
+        </div>
+        <ul class="nav-icon-links">
+          <li class="icon-link">
+            <a href="../pages/basket.html"
+              ><img src="../images/basket.png" class="basket-img" alt=""
+            /></a>
+          </li>
+          <li class="icon-link">
+            <a href="../pages/login-page.html"
+              ><img
+                src="../images/user-account-png.png"
+                class="account-img"
+                alt=""
+            /></a>
+          </li>
+        </ul>
+        <label for="check" class="close-menu"
+          ><i class="fas fa-times"></i
+        ></label>
+      </ul>
+      <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+    </nav>
+    <div class="login-container">
+      <h1>LOGIN</h1>
+      <form action="">
+        <section class="outer-inputs-box">
+          <section class="inner-inputs-box">
+            <label for="Email">Email</label>
+            <input type="Email" id="Email" name="Email" />
+            <span class="error">Email invalid</span>
+
+            <label for="Password">Password</label>
+            <input type="Password" id="Password" name="Password" />
+            <span class="error password-requirements">
+              <h4 class="pass-header"> Your password needs to:</h4>
+              <ul>
+                  <li class="pass-1">Include both lower and upper case characters.</li>
+                  <li class="pass-2">Include at least one number or symbol.</li>
+                  <li class="pass-3">Be at least 8 characters long.</li>
+              </ul>
+          </span>
+          </section>
+        </section>
+        <div class="forgot-pass-container">
+          <a class="forgot-password" href="#">Forgot Password?</a>
+        </div>
+        <section class="login-btn-container">
+          <button class="login-btn">LOGIN</button>
+          <a class="create-acc" href="create-account.html">Create Account</a>
+        </section>
+      </form>
+    </div>
+    <footer>
+      <a href="../pages/index.html">
+        <img src="../images/icon.svg" height="120px" width="150px" alt="" />
+      </a>
+      <ul class="footer-text-links">
+        <li><a href="">Terms and conditions</a></li>
+        <li><a href="">Privacy Policy</a></li>
+        <li><a href="">About Us</a></li>
+        <li><a href="">Contact Us</a></li>
+      </ul>
+
+      <ul class="footer-icon-links">
+        <li>
+          <a href=""
+            ><img class="footer-icon" src="../images/facebook-icon.png" alt=""
+          /></a>
+        </li>
+        <li>
+          <a href=""
+            ><img class="footer-icon" src="../images/instagram-icon.png" alt=""
+          /></a>
+        </li>
+        <li>
+          <a href=""
+            ><img class="footer-icon" src="../images/twitter-icon.png" alt=""
+          /></a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

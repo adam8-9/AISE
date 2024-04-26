@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/svg.css">
+    <link rel="stylesheet" href="svg.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prosto+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Wallpoet&display=swap" rel="stylesheet">
+    <title>SVG for AISE</title>
+</head>
+<body>
+    <h1>SVG</h1> -->
+
+    <svg xmlns="http://www.w3.org/2000/svg">
+        <line class='top-line2' x1="33.1" y1="40" x2="101.9" y2="40" stroke="black" stroke-width="1mm" />
+        <line class='right-line-tp2' x1="100" y1="55" x2="100" y2="40" stroke="black" stroke-width="1mm" />
+        <line class='right-line-bottom2' x1="100" y1="85" x2="100" y2="100" stroke="black" stroke-width="1mm" />
+        <line class='left-line2' x1="35" y1="40" x2="35" y2="100" stroke="black" stroke-width="1mm"></line>
+        <line class='bottom-line2' x1="33.1" y1="100" x2="101.9" y2="100" stroke="black" stroke-width="1mm"></line>
+
+        <line class='top-line' x1="33.5" y1="40" x2="101.5" y2="40" stroke="yellow" stroke-width="3px"  />
+        <line class='right-line-top' x1="100" y1="55" x2="100" y2="40" stroke="yellow" stroke-width="3px" />
+        <line class='right-line-bottom' x1="100" y1="85" x2="100" y2="100" stroke="yellow" stroke-width="3px" />
+        <line class='left-line' x1="35" y1="40" x2="35" y2="100" stroke="yellow" stroke-width="3px"></line>
+        <line class='bottom-line' x1="33.5" y1="100" x2="101.5" y2="100" stroke="yellow" stroke-width="3px"></line>
+        
+
+        <!-- <text class="logo" x="71" y="75">AISE</text>         -->
+        <svg width="72" height="30" viewBox="0 0 252.5 74" xmlns="http://www.w3.org/2000/svg" 
+        x="59" y="55"><g id="svgGroup" stroke-linecap="round" fill-rule="evenodd" font-size="9pt"
+         stroke="#000000" stroke-width=".25mm" fill="#6200ff" style="stroke:#000000;stroke-width:.25mm;fill:#6200ff">
+         <path d="M 252.5 9.5 L 206 9.5 L 206 32.5 L 242.5 32.5 L 242.5 40 L 206 40 L 206 64.5 L 252.5 64.5 L 252.5 72 L 
+         191.5 72 L 191.5 2 L 252.5 2 L 252.5 9.5 Z M 112.5 62.5 L 117.5 56.5 Q 123.2 61.4 130.8 63.95 Q 138.4 66.5 147.5 
+         66.5 Q 155.425 66.5 159.718 64.776 A 11.415 11.415 0 0 0 161.8 63.7 A 9.916 9.916 0 0 0 164.44 61.192 Q 166 58.986
+          166 56 A 7.658 7.658 0 0 0 163.428 50.226 A 10.968 10.968 0 0 0 162.7 49.6 A 17.068 17.068 0 0 0 160.48 48.145 
+          Q 157.178 46.297 151.5 44.5 L 132.5 38.5 A 53.429 53.429 0 0 1 126.612 36.256 Q 123.754 34.955 121.509 33.434 A 
+          23.719 23.719 0 0 1 118.3 30.85 A 15.581 15.581 0 0 1 113.524 20 A 20.823 20.823 0 0 1 113.5 19 Q 113.5 15.3 
+          115.25 11.85 A 15.61 15.61 0 0 1 118.292 7.758 A 20.442 20.442 0 0 1 120.7 5.75 A 23.551 23.551 0 0 1 124.619 
+          3.507 Q 126.592 2.604 128.933 1.897 A 42.451 42.451 0 0 1 130.15 1.55 Q 134.875 0.276 141.187 0.049 A 78.289 
+          78.289 0 0 1 144 0 Q 148.9 0 153.75 0.8 Q 158.6 1.6 163.05 3.1 A 49.659 49.659 0 0 1 170.623 6.353 A 45.524 
+          45.524 0 0 1 171.35 6.75 A 37.722 37.722 0 0 1 175.349 9.311 A 30.419 30.419 0 0 1 178 11.5 L 173 17.5 Q 167.3 
+          12.6 160.2 10.05 A 42.243 42.243 0 0 0 151.58 7.988 A 56.407 56.407 0 0 0 144 7.5 A 34.894 34.894 0 0 0 140.078 
+          7.706 Q 135.731 8.199 133.09 9.874 A 9.982 9.982 0 0 0 132.75 10.1 A 10.493 10.493 0 0 0 130.732 11.889 A 6.905 
+          6.905 0 0 0 129 16.5 A 10.661 10.661 0 0 0 129.134 18.232 Q 129.306 19.278 129.7 20.15 A 6.954 6.954 0 0 0 
+          130.712 21.74 Q 131.232 22.364 131.93 22.951 A 11.834 11.834 0 0 0 132.05 23.05 Q 133.7 24.4 136.4 25.55 A 
+          58.416 58.416 0 0 0 138.608 26.434 Q 139.604 26.811 140.727 27.202 A 117.866 117.866 0 0 0 143.1 28 L 162 34 
+          Q 171.1 36.9 176.3 41.6 A 15.231 15.231 0 0 1 181.48 52.61 A 19.314 19.314 0 0 1 181.5 53.5 Q 181.5 57.8 179.7 
+          61.55 A 15.232 15.232 0 0 1 176.369 66.041 A 20.124 20.124 0 0 1 173.85 68.05 A 25.19 25.19 0 0 1 169.847 70.236 
+          Q 167.875 71.105 165.543 71.802 A 48.044 48.044 0 0 1 163.35 72.4 Q 158.42 73.623 151.765 73.911 A 98.688 98.688 
+          0 0 1 147.5 74 Q 142.2 74 137.15 73.2 A 61.943 61.943 0 0 1 128.695 71.264 A 56.461 56.461 0 0 1 127.55 70.9 Q 
+          123 69.4 119.15 67.25 A 37.722 37.722 0 0 1 115.151 64.689 A 30.419 30.419 0 0 1 112.5 62.5 Z M 28.5 2 L 51.5 2 L 
+          80 72 L 65.6 72 L 59 55 L 21 55 L 14.4 72 L 0 72 L 28.5 2 Z M 102.5 2 L 102.5 72 L 88 72 L 88 2 L 102.5 2 Z M 39.5 
+          10.5 L 24.5 47.5 L 55.5 47.5 L 40.5 10.5 L 39.5 10.5 Z" vector-effect="fixed-position"></path></g></svg>   
+      </svg>
+<!-- </body>
+</html> -->
+
